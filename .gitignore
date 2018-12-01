@@ -24,3 +24,11 @@ _autosave-*
 # Exported BOM files
 *.xml
 *.csv
+
+# Other
+fp-lib-table
+.DS_Store
+*.swp
+*.log
+*.raw
+*.plt
