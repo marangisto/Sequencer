@@ -315,4 +315,14 @@ Wire Wire Line
 	3850 3800 4000 3800
 Wire Wire Line
 	3850 3900 4000 3900
+Text GLabel 3850 4150 0    50   Input ~ 0
+SCL
+Text GLabel 3850 4050 0    50   Input ~ 0
+SDA
+Wire Wire Line
+	3850 4050 4000 4050
+Wire Wire Line
+	3850 4150 4000 4150
+Text Notes 3250 6000 0    79   ~ 16
+FIXME: I2C header with pull-ups and power!
 $EndSCHEMATC
