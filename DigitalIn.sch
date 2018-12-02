@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 13
+Sheet 13 16
 Title ""
 Date ""
 Rev ""
@@ -25,14 +25,14 @@ AR Path="/5C756F9E/5C75FA5C" Ref="R?"  Part="1"
 AR Path="/5C75ED8D/5C75FA5C" Ref="R?"  Part="1" 
 AR Path="/5C75F05F/5C75FA5C" Ref="R?"  Part="1" 
 AR Path="/5C75F064/5C75FA5C" Ref="R?"  Part="1" 
-AR Path="/5C756F9B/5C75FA5C" Ref="R?"  Part="1" 
+AR Path="/5C756F9B/5C75FA5C" Ref="R35"  Part="1" 
 AR Path="/5C762470/5C75FA5C" Ref="R?"  Part="1" 
 AR Path="/5C76286B/5C75FA5C" Ref="R?"  Part="1" 
 AR Path="/5C762870/5C75FA5C" Ref="R?"  Part="1" 
-AR Path="/5C763CB7/5C75FA5C" Ref="R?"  Part="1" 
-AR Path="/5C7644B3/5C75FA5C" Ref="R?"  Part="1" 
-AR Path="/5C7644B9/5C75FA5C" Ref="R?"  Part="1" 
-F 0 "R?" V 4843 3900 50  0000 C CNN
+AR Path="/5C763CB7/5C75FA5C" Ref="R73"  Part="1" 
+AR Path="/5C7644B3/5C75FA5C" Ref="R75"  Part="1" 
+AR Path="/5C7644B9/5C75FA5C" Ref="R77"  Part="1" 
+F 0 "R77" V 4843 3900 50  0000 C CNN
 F 1 "100k" V 4934 3900 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4980 3900 50  0001 C CNN
 F 3 "~" H 5050 3900 50  0001 C CNN
@@ -52,14 +52,14 @@ AR Path="/5C756F9E/5C75FA64" Ref="J-Inv?"  Part="1"
 AR Path="/5C75ED8D/5C75FA64" Ref="J-Inv?"  Part="1" 
 AR Path="/5C75F05F/5C75FA64" Ref="J-Inv?"  Part="1" 
 AR Path="/5C75F064/5C75FA64" Ref="J-Inv?"  Part="1" 
-AR Path="/5C756F9B/5C75FA64" Ref="J-Inv?"  Part="1" 
+AR Path="/5C756F9B/5C75FA64" Ref="J-Inv3"  Part="1" 
 AR Path="/5C762470/5C75FA64" Ref="J-Inv?"  Part="1" 
 AR Path="/5C76286B/5C75FA64" Ref="J-Inv?"  Part="1" 
 AR Path="/5C762870/5C75FA64" Ref="J-Inv?"  Part="1" 
-AR Path="/5C763CB7/5C75FA64" Ref="J-Inv?"  Part="1" 
-AR Path="/5C7644B3/5C75FA64" Ref="J-Inv?"  Part="1" 
-AR Path="/5C7644B9/5C75FA64" Ref="J-Inv?"  Part="1" 
-F 0 "J-Inv?" H 4167 3879 50  0000 R CNN
+AR Path="/5C763CB7/5C75FA64" Ref="J-Inv10"  Part="1" 
+AR Path="/5C7644B3/5C75FA64" Ref="J-Inv11"  Part="1" 
+AR Path="/5C7644B9/5C75FA64" Ref="J-Inv12"  Part="1" 
+F 0 "J-Inv12" H 4167 3879 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 4167 3970 50  0000 R CNN
 F 2 "Local:PJ398SM" H 4400 3900 50  0001 C CNN
 F 3 "~" H 4400 3900 50  0001 C CNN
@@ -79,14 +79,14 @@ AR Path="/5C756F9E/5C75FA6C" Ref="#PWR?"  Part="1"
 AR Path="/5C75ED8D/5C75FA6C" Ref="#PWR?"  Part="1" 
 AR Path="/5C75F05F/5C75FA6C" Ref="#PWR?"  Part="1" 
 AR Path="/5C75F064/5C75FA6C" Ref="#PWR?"  Part="1" 
-AR Path="/5C756F9B/5C75FA6C" Ref="#PWR?"  Part="1" 
+AR Path="/5C756F9B/5C75FA6C" Ref="#PWR039"  Part="1" 
 AR Path="/5C762470/5C75FA6C" Ref="#PWR?"  Part="1" 
 AR Path="/5C76286B/5C75FA6C" Ref="#PWR?"  Part="1" 
 AR Path="/5C762870/5C75FA6C" Ref="#PWR?"  Part="1" 
-AR Path="/5C763CB7/5C75FA6C" Ref="#PWR?"  Part="1" 
-AR Path="/5C7644B3/5C75FA6C" Ref="#PWR?"  Part="1" 
-AR Path="/5C7644B9/5C75FA6C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 4700 4000 50  0001 C CNN
+AR Path="/5C763CB7/5C75FA6C" Ref="#PWR067"  Part="1" 
+AR Path="/5C7644B3/5C75FA6C" Ref="#PWR070"  Part="1" 
+AR Path="/5C7644B9/5C75FA6C" Ref="#PWR073"  Part="1" 
+F 0 "#PWR073" H 4700 4000 50  0001 C CNN
 F 1 "GND" H 4700 4100 50  0000 C CNN
 F 2 "" H 4700 4250 50  0001 C CNN
 F 3 "" H 4700 4250 50  0001 C CNN
@@ -98,17 +98,17 @@ Wire Wire Line
 Wire Wire Line
 	4700 4000 4600 4000
 $Comp
-L Transistor_BJT:BC847BDW1 Q?
+L Transistor_BJT:BC847BDW1 Q1
 U 1 1 5C75FC27
 P 5550 3900
-AR Path="/5C756F9B/5C75FC27" Ref="Q?"  Part="1" 
+AR Path="/5C756F9B/5C75FC27" Ref="Q1"  Part="1" 
 AR Path="/5C762470/5C75FC27" Ref="Q?"  Part="1" 
 AR Path="/5C76286B/5C75FC27" Ref="Q?"  Part="1" 
 AR Path="/5C762870/5C75FC27" Ref="Q?"  Part="1" 
-AR Path="/5C763CB7/5C75FC27" Ref="Q?"  Part="1" 
-AR Path="/5C7644B3/5C75FC27" Ref="Q?"  Part="1" 
-AR Path="/5C7644B9/5C75FC27" Ref="Q?"  Part="1" 
-F 0 "Q?" H 5741 3946 50  0000 L CNN
+AR Path="/5C763CB7/5C75FC27" Ref="Q2"  Part="1" 
+AR Path="/5C7644B3/5C75FC27" Ref="Q3"  Part="1" 
+AR Path="/5C7644B9/5C75FC27" Ref="Q4"  Part="1" 
+F 0 "Q4" H 5741 3946 50  0000 L CNN
 F 1 "BC847BDW1" H 5741 3855 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-363_SC-70-6" H 5750 4000 50  0001 C CNN
 F 3 "http://www.onsemi.com/pub_link/Collateral/BC846BDW1T1-D.PDF" H 5550 3900 50  0001 C CNN
@@ -126,14 +126,14 @@ AR Path="/5C756F9E/5C75FC51" Ref="#PWR?"  Part="1"
 AR Path="/5C75ED8D/5C75FC51" Ref="#PWR?"  Part="1" 
 AR Path="/5C75F05F/5C75FC51" Ref="#PWR?"  Part="1" 
 AR Path="/5C75F064/5C75FC51" Ref="#PWR?"  Part="1" 
-AR Path="/5C756F9B/5C75FC51" Ref="#PWR?"  Part="1" 
+AR Path="/5C756F9B/5C75FC51" Ref="#PWR041"  Part="1" 
 AR Path="/5C762470/5C75FC51" Ref="#PWR?"  Part="1" 
 AR Path="/5C76286B/5C75FC51" Ref="#PWR?"  Part="1" 
 AR Path="/5C762870/5C75FC51" Ref="#PWR?"  Part="1" 
-AR Path="/5C763CB7/5C75FC51" Ref="#PWR?"  Part="1" 
-AR Path="/5C7644B3/5C75FC51" Ref="#PWR?"  Part="1" 
-AR Path="/5C7644B9/5C75FC51" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5650 4000 50  0001 C CNN
+AR Path="/5C763CB7/5C75FC51" Ref="#PWR069"  Part="1" 
+AR Path="/5C7644B3/5C75FC51" Ref="#PWR072"  Part="1" 
+AR Path="/5C7644B9/5C75FC51" Ref="#PWR075"  Part="1" 
+F 0 "#PWR075" H 5650 4000 50  0001 C CNN
 F 1 "GND" H 5650 4100 50  0000 C CNN
 F 2 "" H 5650 4250 50  0001 C CNN
 F 3 "" H 5650 4250 50  0001 C CNN
@@ -143,35 +143,35 @@ $EndComp
 Wire Wire Line
 	5650 4250 5650 4100
 $Comp
-L Device:R R?
+L Device:R R36
 U 1 1 5C75FCA9
 P 5650 3300
-AR Path="/5C756F9B/5C75FCA9" Ref="R?"  Part="1" 
+AR Path="/5C756F9B/5C75FCA9" Ref="R36"  Part="1" 
 AR Path="/5C762470/5C75FCA9" Ref="R?"  Part="1" 
 AR Path="/5C76286B/5C75FCA9" Ref="R?"  Part="1" 
 AR Path="/5C762870/5C75FCA9" Ref="R?"  Part="1" 
-AR Path="/5C763CB7/5C75FCA9" Ref="R?"  Part="1" 
-AR Path="/5C7644B3/5C75FCA9" Ref="R?"  Part="1" 
-AR Path="/5C7644B9/5C75FCA9" Ref="R?"  Part="1" 
-F 0 "R?" H 5720 3346 50  0000 L CNN
+AR Path="/5C763CB7/5C75FCA9" Ref="R74"  Part="1" 
+AR Path="/5C7644B3/5C75FCA9" Ref="R76"  Part="1" 
+AR Path="/5C7644B9/5C75FCA9" Ref="R78"  Part="1" 
+F 0 "R78" H 5720 3346 50  0000 L CNN
 F 1 "10k" H 5720 3255 50  0000 L CNN
-F 2 "" V 5580 3300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5580 3300 50  0001 C CNN
 F 3 "~" H 5650 3300 50  0001 C CNN
 	1    5650 3300
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR040
 U 1 1 5C75FD17
 P 5650 3000
-AR Path="/5C756F9B/5C75FD17" Ref="#PWR?"  Part="1" 
+AR Path="/5C756F9B/5C75FD17" Ref="#PWR040"  Part="1" 
 AR Path="/5C762470/5C75FD17" Ref="#PWR?"  Part="1" 
 AR Path="/5C76286B/5C75FD17" Ref="#PWR?"  Part="1" 
 AR Path="/5C762870/5C75FD17" Ref="#PWR?"  Part="1" 
-AR Path="/5C763CB7/5C75FD17" Ref="#PWR?"  Part="1" 
-AR Path="/5C7644B3/5C75FD17" Ref="#PWR?"  Part="1" 
-AR Path="/5C7644B9/5C75FD17" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5650 2850 50  0001 C CNN
+AR Path="/5C763CB7/5C75FD17" Ref="#PWR068"  Part="1" 
+AR Path="/5C7644B3/5C75FD17" Ref="#PWR071"  Part="1" 
+AR Path="/5C7644B9/5C75FD17" Ref="#PWR074"  Part="1" 
+F 0 "#PWR074" H 5650 2850 50  0001 C CNN
 F 1 "+5V" H 5665 3173 50  0000 C CNN
 F 2 "" H 5650 3000 50  0001 C CNN
 F 3 "" H 5650 3000 50  0001 C CNN
