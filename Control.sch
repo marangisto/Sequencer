@@ -1,0 +1,378 @@
+EESchema Schematic File Version 4
+LIBS:Sequencer-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 17 21
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Switch:SW_SPDT_MSM SW2
+U 1 1 5C0D830F
+P 4750 3550
+F 0 "SW2" H 4750 3835 50  0000 C CNN
+F 1 "SW_SPDT_MSM" H 4750 3744 50  0000 C CNN
+F 2 "Local:SPDT" H 4750 3550 50  0001 C CNN
+F 3 "" H 4750 3550 50  0001 C CNN
+	1    4750 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT_MSM SW3
+U 1 1 5C0D8366
+P 4750 4150
+F 0 "SW3" H 4750 4435 50  0000 C CNN
+F 1 "SW_SPDT_MSM" H 4750 4344 50  0000 C CNN
+F 2 "Local:SPDT" H 4750 4150 50  0001 C CNN
+F 3 "" H 4750 4150 50  0001 C CNN
+	1    4750 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT_MSM SW4
+U 1 1 5C0D83BF
+P 4750 4750
+F 0 "SW4" H 4750 5035 50  0000 C CNN
+F 1 "SW_SPDT_MSM" H 4750 4944 50  0000 C CNN
+F 2 "Local:SPDT" H 4750 4750 50  0001 C CNN
+F 3 "" H 4750 4750 50  0001 C CNN
+	1    4750 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT_MSM SW5
+U 1 1 5C0D83DF
+P 4750 5350
+F 0 "SW5" H 4750 5635 50  0000 C CNN
+F 1 "SW_SPDT_MSM" H 4750 5544 50  0000 C CNN
+F 2 "Local:SPDT" H 4750 5350 50  0001 C CNN
+F 3 "" H 4750 5350 50  0001 C CNN
+	1    4750 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D6
+U 1 1 5C0D84D4
+P 4400 3550
+F 0 "D6" H 4400 3766 50  0000 C CNN
+F 1 "1N4148" H 4400 3675 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 3375 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4400 3550 50  0001 C CNN
+	1    4400 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D7
+U 1 1 5C0D8538
+P 4400 4150
+F 0 "D7" H 4400 4366 50  0000 C CNN
+F 1 "1N4148" H 4400 4275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 3975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4400 4150 50  0001 C CNN
+	1    4400 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D8
+U 1 1 5C0D855C
+P 4400 4750
+F 0 "D8" H 4400 4966 50  0000 C CNN
+F 1 "1N4148" H 4400 4875 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 4575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4400 4750 50  0001 C CNN
+	1    4400 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D9
+U 1 1 5C0D8582
+P 4400 5350
+F 0 "D9" H 4400 5566 50  0000 C CNN
+F 1 "1N4148" H 4400 5475 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 4400 5175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 4400 5350 50  0001 C CNN
+	1    4400 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 3550 4100 3550
+Wire Wire Line
+	4100 3550 4100 3850
+Connection ~ 4100 3850
+Wire Wire Line
+	4100 3850 5600 3850
+Wire Wire Line
+	4250 4150 4100 4150
+Wire Wire Line
+	4100 4150 4100 4450
+Connection ~ 4100 4450
+Wire Wire Line
+	4100 4450 5600 4450
+Wire Wire Line
+	4250 4750 4100 4750
+Wire Wire Line
+	4100 4750 4100 5050
+Connection ~ 4100 5050
+Wire Wire Line
+	4100 5050 5600 5050
+Wire Wire Line
+	4250 5350 4100 5350
+Wire Wire Line
+	4100 5350 4100 5650
+Connection ~ 4100 5650
+Wire Wire Line
+	4100 5650 5600 5650
+Wire Wire Line
+	4950 3450 5100 3450
+Wire Wire Line
+	5100 3450 5100 4050
+Wire Wire Line
+	5100 5250 4950 5250
+Wire Wire Line
+	4950 4650 5100 4650
+Connection ~ 5100 4650
+Wire Wire Line
+	5100 4650 5100 5250
+Wire Wire Line
+	4950 4050 5100 4050
+Connection ~ 5100 4050
+Wire Wire Line
+	5100 4050 5100 4650
+Wire Wire Line
+	4950 3650 5300 3650
+Wire Wire Line
+	5300 3650 5300 4250
+Wire Wire Line
+	5300 5450 4950 5450
+Wire Wire Line
+	4950 4850 5300 4850
+Connection ~ 5300 4850
+Wire Wire Line
+	5300 4850 5300 5450
+Wire Wire Line
+	4950 4250 5300 4250
+Connection ~ 5300 4250
+Wire Wire Line
+	5300 4250 5300 4850
+$Comp
+L Switch:SW_SPDT_MSM SW6
+U 1 1 5C0D9BBC
+P 6000 4150
+F 0 "SW6" H 6000 4435 50  0000 C CNN
+F 1 "SW_SPDT_MSM" H 6000 4344 50  0000 C CNN
+F 2 "Local:SPDT" H 6000 4150 50  0001 C CNN
+F 3 "" H 6000 4150 50  0001 C CNN
+	1    6000 4150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D10
+U 1 1 5C0D9C42
+P 6350 4150
+F 0 "D10" H 6350 4366 50  0000 C CNN
+F 1 "1N4148" H 6350 4275 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6350 3975 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6350 4150 50  0001 C CNN
+	1    6350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D11
+U 1 1 5C0D9C87
+P 6350 4750
+F 0 "D11" H 6350 4966 50  0000 C CNN
+F 1 "1N4148" H 6350 4875 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6350 4575 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6350 4750 50  0001 C CNN
+	1    6350 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Diode:1N4148 D12
+U 1 1 5C0D9CB7
+P 6350 5350
+F 0 "D12" H 6350 5566 50  0000 C CNN
+F 1 "1N4148" H 6350 5475 50  0000 C CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6350 5175 50  0001 C CNN
+F 3 "http://www.nxp.com/documents/data_sheet/1N4148_1N4448.pdf" H 6350 5350 50  0001 C CNN
+	1    6350 5350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4050 5600 4050
+Wire Wire Line
+	5600 4050 5600 3850
+Wire Wire Line
+	5800 4250 5600 4250
+Wire Wire Line
+	5600 4250 5600 4450
+$Comp
+L Switch:SW_SPDT SW7
+U 1 1 5C0DA69C
+P 6000 4750
+F 0 "SW7" H 6000 5035 50  0000 C CNN
+F 1 "SW_SPDT" H 6000 4944 50  0000 C CNN
+F 2 "Local:SPDT" H 6000 4750 50  0001 C CNN
+F 3 "" H 6000 4750 50  0001 C CNN
+	1    6000 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW8
+U 1 1 5C0DA6ED
+P 6000 5350
+F 0 "SW8" H 6000 5635 50  0000 C CNN
+F 1 "SW_SPDT" H 6000 5544 50  0000 C CNN
+F 2 "Local:SPDT" H 6000 5350 50  0001 C CNN
+F 3 "" H 6000 5350 50  0001 C CNN
+	1    6000 5350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5050 5600 4850
+Wire Wire Line
+	5600 4850 5800 4850
+Wire Wire Line
+	5600 5650 5600 5450
+Wire Wire Line
+	5600 5450 5800 5450
+$Comp
+L Device:R R13
+U 1 1 5C0DBCAA
+P 5100 2200
+F 0 "R13" H 5170 2246 50  0000 L CNN
+F 1 "10k" H 5170 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5030 2200 50  0001 C CNN
+F 3 "~" H 5100 2200 50  0001 C CNN
+	1    5100 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R14
+U 1 1 5C0DBD1B
+P 5300 2200
+F 0 "R14" H 5370 2246 50  0000 L CNN
+F 1 "10k" H 5370 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5230 2200 50  0001 C CNN
+F 3 "~" H 5300 2200 50  0001 C CNN
+	1    5300 2200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R15
+U 1 1 5C0DBD4C
+P 6700 2200
+F 0 "R15" H 6770 2246 50  0000 L CNN
+F 1 "10k" H 6770 2155 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 2200 50  0001 C CNN
+F 3 "~" H 6700 2200 50  0001 C CNN
+	1    6700 2200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 2350 6700 3250
+Wire Wire Line
+	6700 4150 6500 4150
+Wire Wire Line
+	6700 4150 6700 4750
+Wire Wire Line
+	6700 4750 6500 4750
+Connection ~ 6700 4150
+Wire Wire Line
+	6700 4750 6700 5350
+Wire Wire Line
+	6700 5350 6500 5350
+Connection ~ 6700 4750
+Wire Wire Line
+	5100 2350 5100 2650
+Connection ~ 5100 3450
+Wire Wire Line
+	5300 2350 5300 2950
+Connection ~ 5300 3650
+$Comp
+L power:+5V #PWR049
+U 1 1 5C0DE344
+P 5100 1850
+F 0 "#PWR049" H 5100 1700 50  0001 C CNN
+F 1 "+5V" H 5115 2023 50  0000 C CNN
+F 2 "" H 5100 1850 50  0001 C CNN
+F 3 "" H 5100 1850 50  0001 C CNN
+	1    5100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR050
+U 1 1 5C0DE378
+P 5300 1850
+F 0 "#PWR050" H 5300 1700 50  0001 C CNN
+F 1 "+5V" H 5315 2023 50  0000 C CNN
+F 2 "" H 5300 1850 50  0001 C CNN
+F 3 "" H 5300 1850 50  0001 C CNN
+	1    5300 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR051
+U 1 1 5C0DE3A5
+P 6700 1850
+F 0 "#PWR051" H 6700 1700 50  0001 C CNN
+F 1 "+5V" H 6715 2023 50  0000 C CNN
+F 2 "" H 6700 1850 50  0001 C CNN
+F 3 "" H 6700 1850 50  0001 C CNN
+	1    6700 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1850 5100 2050
+Wire Wire Line
+	5300 1850 5300 2050
+Wire Wire Line
+	6700 1850 6700 2050
+Text HLabel 3800 3850 0    50   Input ~ 0
+Scan0
+Text HLabel 3800 4450 0    50   Input ~ 0
+Scan1
+Text HLabel 3800 5050 0    50   Input ~ 0
+Scan2
+Text HLabel 3800 5650 0    50   Input ~ 0
+Scan3
+Wire Wire Line
+	3800 3850 4100 3850
+Wire Wire Line
+	3800 4450 4100 4450
+Wire Wire Line
+	3800 5050 4100 5050
+Wire Wire Line
+	3800 5650 4100 5650
+Text HLabel 3800 3250 0    50   Input ~ 0
+Sense2
+Text HLabel 3800 2650 0    50   Input ~ 0
+Sense0
+Text HLabel 3800 2950 0    50   Input ~ 0
+Sense1
+Wire Wire Line
+	3800 2650 5100 2650
+Connection ~ 5100 2650
+Wire Wire Line
+	5100 2650 5100 3450
+Wire Wire Line
+	3800 2950 5300 2950
+Connection ~ 5300 2950
+Wire Wire Line
+	5300 2950 5300 3650
+Wire Wire Line
+	3800 3250 6700 3250
+Connection ~ 6700 3250
+Wire Wire Line
+	6700 3250 6700 4150
+NoConn ~ 5800 4650
+NoConn ~ 5800 5250
+$EndSCHEMATC
