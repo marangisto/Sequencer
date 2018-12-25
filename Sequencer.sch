@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Sequencer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -54,13 +53,13 @@ $EndSheet
 Text GLabel 12650 2850 0    50   Input ~ 0
 CV0
 Text GLabel 9100 3800 2    50   Input ~ 0
-CV0
-Text GLabel 9100 3900 2    50   Input ~ 0
-CV1
-Text GLabel 9100 4100 2    50   Input ~ 0
-CV3
-Text GLabel 9100 4000 2    50   Input ~ 0
 CV2
+Text GLabel 9100 3900 2    50   Input ~ 0
+CV3
+Text GLabel 9100 4100 2    50   Input ~ 0
+CV0
+Text GLabel 9100 4000 2    50   Input ~ 0
+CV1
 Text GLabel 12650 3450 0    50   Input ~ 0
 TRIG0
 Text GLabel 9100 3300 2    50   Input ~ 0
