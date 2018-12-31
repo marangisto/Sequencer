@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Sequencer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -133,7 +134,7 @@ F 3 "" H 4300 5250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega328PB-AU U2
+L Sequencer-rescue:ATmega328PB-AU-MCU_Microchip_ATmega U2
 U 1 1 5BAD54B6
 P 4300 3650
 F 0 "U2" H 3800 5100 50  0000 L BNN

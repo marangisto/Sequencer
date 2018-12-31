@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Sequencer-cache
 EELAYER 26 0
 EELAYER END
 $Descr A3 16535 11693
@@ -321,7 +322,7 @@ Wire Wire Line
 Wire Wire Line
 	7600 5000 7450 5000
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv5
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv5
 U 1 1 5C12CEEB
 P 2500 5200
 AR Path="/5C12CEEB" Ref="J-Inv5"  Part="1" 
@@ -406,7 +407,7 @@ $EndSheet
 Text GLabel 4150 5900 2    50   Input ~ 0
 END0
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv6
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv6
 U 1 1 5C14AC08
 P 2500 5900
 AR Path="/5C14AC08" Ref="J-Inv6"  Part="1" 
@@ -493,7 +494,7 @@ $EndSheet
 Text GLabel 4150 6600 2    50   Input ~ 0
 STA1
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv7
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv7
 U 1 1 5C1536CB
 P 2500 6600
 AR Path="/5C1536CB" Ref="J-Inv7"  Part="1" 
@@ -573,7 +574,7 @@ $EndSheet
 Text GLabel 4150 7300 2    50   Input ~ 0
 END1
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv8
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv8
 U 1 1 5C1536E3
 P 2500 7300
 AR Path="/5C1536E3" Ref="J-Inv8"  Part="1" 
@@ -655,7 +656,7 @@ Wire Wire Line
 	2700 6500 3150 6500
 Connection ~ 3150 5800
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv1
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv1
 U 1 1 5C15CF7E
 P 2500 3000
 AR Path="/5C15CF7E" Ref="J-Inv1"  Part="1" 
@@ -738,7 +739,7 @@ RST0
 Wire Wire Line
 	4050 3550 4150 3550
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv2
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv2
 U 1 1 5C18880D
 P 2500 3550
 AR Path="/5C18880D" Ref="J-Inv2"  Part="1" 
@@ -811,7 +812,7 @@ CLK1
 Wire Wire Line
 	4050 4100 4150 4100
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv3
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv3
 U 1 1 5C192063
 P 2500 4100
 AR Path="/5C192063" Ref="J-Inv3"  Part="1" 
@@ -879,7 +880,7 @@ RST1
 Wire Wire Line
 	4050 4650 4150 4650
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv4
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv4
 U 1 1 5C192080
 P 2500 4650
 AR Path="/5C192080" Ref="J-Inv4"  Part="1" 
@@ -957,7 +958,7 @@ Connection ~ 3300 3550
 Wire Wire Line
 	3300 3550 3550 3550
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv9
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv9
 U 1 1 5C1C3196
 P 13850 2850
 AR Path="/5C1C3196" Ref="J-Inv9"  Part="1" 
@@ -1000,7 +1001,7 @@ $EndSheet
 Wire Wire Line
 	12650 2850 12750 2850
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv10
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv10
 U 1 1 5C1FB620
 P 13850 3450
 AR Path="/5C1FB620" Ref="J-Inv10"  Part="1" 
@@ -1057,7 +1058,7 @@ $EndSheet
 Wire Wire Line
 	12650 4650 12750 4650
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv11
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv11
 U 1 1 5C230BB5
 P 13850 4050
 AR Path="/5C230BB5" Ref="J-Inv11"  Part="1" 
@@ -1086,7 +1087,7 @@ $EndComp
 Wire Wire Line
 	12650 4050 12750 4050
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv12
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv12
 U 1 1 5C230BCA
 P 13850 4650
 AR Path="/5C230BCA" Ref="J-Inv12"  Part="1" 
@@ -1157,7 +1158,7 @@ $EndSheet
 Wire Wire Line
 	12650 5850 12750 5850
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv13
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv13
 U 1 1 5C25BE6F
 P 13850 5250
 AR Path="/5C25BE6F" Ref="J-Inv13"  Part="1" 
@@ -1200,7 +1201,7 @@ $EndSheet
 Wire Wire Line
 	12650 5250 12750 5250
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv14
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv14
 U 1 1 5C25BE84
 P 13850 5850
 AR Path="/5C25BE84" Ref="J-Inv14"  Part="1" 
@@ -1257,7 +1258,7 @@ $EndSheet
 Wire Wire Line
 	12650 7050 12750 7050
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv15
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv15
 U 1 1 5C25BE9B
 P 13850 6450
 AR Path="/5C25BE9B" Ref="J-Inv15"  Part="1" 
@@ -1286,7 +1287,7 @@ $EndComp
 Wire Wire Line
 	12650 6450 12750 6450
 $Comp
-L Connector:AudioJack2_Ground_Switch J-Inv16
+L Sequencer-rescue:AudioJack2_Ground_Switch-Connector J-Inv16
 U 1 1 5C25BEA9
 P 13850 7050
 AR Path="/5C25BEA9" Ref="J-Inv16"  Part="1" 
