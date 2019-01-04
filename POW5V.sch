@@ -257,7 +257,7 @@ P 4100 3650
 F 0 "J2" H 4150 4067 50  0000 C CNN
 F 1 "Conn_02x05_Odd_Even" H 4150 3976 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 4100 3650 50  0001 C CNN
-F 3 "~" H 4100 3650 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/10PCS-2-54mm-Pin-Header-0-1-Breakaway-PCB-Male-Pin-2x40Pin-80-Pin-Double-Row/32963701759.html?spm=2114.search0104.3.135.7d8c759eQXrBNh&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_10843_319_10059_10884_317_10887_10696_100031_321_322_10084_453_10083_454_10103_10618_10304_10307_10820_537_536,searchweb201603_53,ppcSwitch_0&algo_expid=2e89b8d4-0e1c-429c-843b-0707be061ddd-19&algo_pvid=2e89b8d4-0e1c-429c-843b-0707be061ddd&transAbTest=ae803_3" H 4100 3650 50  0001 C CNN
 	1    4100 3650
 	1    0    0    1   
 $EndComp
@@ -279,7 +279,7 @@ P 8100 3800
 F 0 "D3" V 8138 3683 50  0000 R CNN
 F 1 "LED" V 8047 3683 50  0000 R CNN
 F 2 "LED_SMD:LED_1206_3216Metric_Castellated" H 8100 3800 50  0001 C CNN
-F 3 "~" H 8100 3800 50  0001 C CNN
+F 3 "Red color" H 8100 3800 50  0001 C CNN
 	1    8100 3800
 	0    -1   -1   0   
 $EndComp

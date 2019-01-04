@@ -141,7 +141,7 @@ AR Path="/5C19208D/5C074194" Ref="Q4"  Part="1"
 F 0 "Q4" H 5741 3946 50  0000 L CNN
 F 1 "BC847" H 5741 3855 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5750 3825 50  0001 L CIN
-F 3 "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657" H 5550 3900 50  0001 L CNN
+F 3 "https://sg.element14.com/multicomp/bc847b/transistor-npn-45v-100ma-sot-23/dp/1574343?scope=partnumberlookahead&ost=1574343&searchref=searchlookahead&exaMfpn=true&ddkey=https%3Aen-SG%2FElement14_Singapore%2Fw%2Fsearch" H 5550 3900 50  0001 L CNN
 	1    5550 3900
 	1    0    0    -1  
 $EndComp

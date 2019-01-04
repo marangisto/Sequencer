@@ -181,7 +181,7 @@ P 8500 9350
 F 0 "J1" H 8550 9025 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 8550 9116 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 8500 9350 50  0001 C CNN
-F 3 "~" H 8500 9350 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/10PCS-2-54mm-Pin-Header-0-1-Breakaway-PCB-Male-Pin-2x40Pin-80-Pin-Double-Row/32963701759.html?spm=2114.search0104.3.135.7d8c759eQXrBNh&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_10843_319_10059_10884_317_10887_10696_100031_321_322_10084_453_10083_454_10103_10618_10304_10307_10820_537_536,searchweb201603_53,ppcSwitch_0&algo_expid=2e89b8d4-0e1c-429c-843b-0707be061ddd-19&algo_pvid=2e89b8d4-0e1c-429c-843b-0707be061ddd&transAbTest=ae803_3" H 8500 9350 50  0001 C CNN
 	1    8500 9350
 	1    0    0    1   
 $EndComp
@@ -348,7 +348,7 @@ AR Path="/5C11E2AF/5C12CEEB" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv5" H 2267 5179 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 2267 5270 50  0000 R CNN
 F 2 "Local:PJ398SM" H 2500 5200 50  0001 C CNN
-F 3 "~" H 2500 5200 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 2500 5200 50  0001 C CNN
 	1    2500 5200
 	1    0    0    1   
 $EndComp
@@ -433,7 +433,7 @@ AR Path="/5C11E2AF/5C14AC08" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv6" H 2267 5879 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 2267 5970 50  0000 R CNN
 F 2 "Local:PJ398SM" H 2500 5900 50  0001 C CNN
-F 3 "~" H 2500 5900 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 2500 5900 50  0001 C CNN
 	1    2500 5900
 	1    0    0    1   
 $EndComp
@@ -520,7 +520,7 @@ AR Path="/5C11E2AF/5C1536CB" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv7" H 2267 6579 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 2267 6670 50  0000 R CNN
 F 2 "Local:PJ398SM" H 2500 6600 50  0001 C CNN
-F 3 "~" H 2500 6600 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 2500 6600 50  0001 C CNN
 	1    2500 6600
 	1    0    0    1   
 $EndComp
@@ -600,7 +600,7 @@ AR Path="/5C11E2AF/5C1536E3" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv8" H 2267 7279 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 2267 7370 50  0000 R CNN
 F 2 "Local:PJ398SM" H 2500 7300 50  0001 C CNN
-F 3 "~" H 2500 7300 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 2500 7300 50  0001 C CNN
 	1    2500 7300
 	1    0    0    1   
 $EndComp
@@ -676,7 +676,7 @@ AR Path="/5C7644B9/5C15CF7E" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv1" H 2267 2979 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 2267 3070 50  0000 R CNN
 F 2 "Local:PJ398SM" H 2500 3000 50  0001 C CNN
-F 3 "~" H 2500 3000 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 2500 3000 50  0001 C CNN
 	1    2500 3000
 	1    0    0    1   
 $EndComp
@@ -759,7 +759,7 @@ AR Path="/5C7644B9/5C18880D" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv2" H 2267 3529 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 2267 3620 50  0000 R CNN
 F 2 "Local:PJ398SM" H 2500 3550 50  0001 C CNN
-F 3 "~" H 2500 3550 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 2500 3550 50  0001 C CNN
 	1    2500 3550
 	1    0    0    1   
 $EndComp
@@ -832,7 +832,7 @@ AR Path="/5C7644B9/5C192063" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv3" H 2267 4079 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 2267 4170 50  0000 R CNN
 F 2 "Local:PJ398SM" H 2500 4100 50  0001 C CNN
-F 3 "~" H 2500 4100 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 2500 4100 50  0001 C CNN
 	1    2500 4100
 	1    0    0    1   
 $EndComp
@@ -900,7 +900,7 @@ AR Path="/5C7644B9/5C192080" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv4" H 2267 4629 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 2267 4720 50  0000 R CNN
 F 2 "Local:PJ398SM" H 2500 4650 50  0001 C CNN
-F 3 "~" H 2500 4650 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 2500 4650 50  0001 C CNN
 	1    2500 4650
 	1    0    0    1   
 $EndComp
@@ -968,7 +968,7 @@ AR Path="/5C75F05A/5C1C3196" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv9" H 13617 2829 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 13617 2920 50  0000 R CNN
 F 2 "Local:PJ398SM" H 13850 2850 50  0001 C CNN
-F 3 "~" H 13850 2850 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 13850 2850 50  0001 C CNN
 	1    13850 2850
 	-1   0    0    1   
 $EndComp
@@ -1014,7 +1014,7 @@ AR Path="/5C75F064/5C1FB620" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv10" H 13617 3429 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 13617 3520 50  0000 R CNN
 F 2 "Local:PJ398SM" H 13850 3450 50  0001 C CNN
-F 3 "~" H 13850 3450 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 13850 3450 50  0001 C CNN
 	1    13850 3450
 	-1   0    0    1   
 $EndComp
@@ -1068,7 +1068,7 @@ AR Path="/5C75F05A/5C230BB5" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv11" H 13617 4029 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 13617 4120 50  0000 R CNN
 F 2 "Local:PJ398SM" H 13850 4050 50  0001 C CNN
-F 3 "~" H 13850 4050 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 13850 4050 50  0001 C CNN
 	1    13850 4050
 	-1   0    0    1   
 $EndComp
@@ -1100,7 +1100,7 @@ AR Path="/5C75F064/5C230BCA" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv12" H 13617 4629 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 13617 4720 50  0000 R CNN
 F 2 "Local:PJ398SM" H 13850 4650 50  0001 C CNN
-F 3 "~" H 13850 4650 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 13850 4650 50  0001 C CNN
 	1    13850 4650
 	-1   0    0    1   
 $EndComp
@@ -1168,7 +1168,7 @@ AR Path="/5C75F05A/5C25BE6F" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv13" H 13617 5229 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 13617 5320 50  0000 R CNN
 F 2 "Local:PJ398SM" H 13850 5250 50  0001 C CNN
-F 3 "~" H 13850 5250 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 13850 5250 50  0001 C CNN
 	1    13850 5250
 	-1   0    0    1   
 $EndComp
@@ -1214,7 +1214,7 @@ AR Path="/5C75F064/5C25BE84" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv14" H 13617 5829 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 13617 5920 50  0000 R CNN
 F 2 "Local:PJ398SM" H 13850 5850 50  0001 C CNN
-F 3 "~" H 13850 5850 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 13850 5850 50  0001 C CNN
 	1    13850 5850
 	-1   0    0    1   
 $EndComp
@@ -1268,7 +1268,7 @@ AR Path="/5C75F05A/5C25BE9B" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv15" H 13617 6429 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 13617 6520 50  0000 R CNN
 F 2 "Local:PJ398SM" H 13850 6450 50  0001 C CNN
-F 3 "~" H 13850 6450 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 13850 6450 50  0001 C CNN
 	1    13850 6450
 	-1   0    0    1   
 $EndComp
@@ -1300,7 +1300,7 @@ AR Path="/5C75F064/5C25BEA9" Ref="J-Inv?"  Part="1"
 F 0 "J-Inv16" H 13617 7029 50  0000 R CNN
 F 1 "AudioJack2_Ground_Switch" H 13617 7120 50  0000 R CNN
 F 2 "Local:PJ398SM" H 13850 7050 50  0001 C CNN
-F 3 "~" H 13850 7050 50  0001 C CNN
+F 3 "http://www.qingpu-electronics.com/en/products/WQP-PJ398SM-362.html" H 13850 7050 50  0001 C CNN
 	1    13850 7050
 	-1   0    0    1   
 $EndComp

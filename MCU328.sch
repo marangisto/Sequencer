@@ -247,7 +247,7 @@ P 7200 2950
 F 0 "J3" H 7250 3267 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 7250 3176 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7200 2950 50  0001 C CNN
-F 3 "~" H 7200 2950 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/10PCS-2-54mm-Pin-Header-0-1-Breakaway-PCB-Male-Pin-2x40Pin-80-Pin-Double-Row/32963701759.html?spm=2114.search0104.3.135.7d8c759eQXrBNh&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_10843_319_10059_10884_317_10887_10696_100031_321_322_10084_453_10083_454_10103_10618_10304_10307_10820_537_536,searchweb201603_53,ppcSwitch_0&algo_expid=2e89b8d4-0e1c-429c-843b-0707be061ddd-19&algo_pvid=2e89b8d4-0e1c-429c-843b-0707be061ddd&transAbTest=ae803_3" H 7200 2950 50  0001 C CNN
 	1    7200 2950
 	1    0    0    -1  
 $EndComp
@@ -325,7 +325,7 @@ P 7250 4250
 F 0 "J4" H 7169 3925 50  0000 C CNN
 F 1 "Conn_01x03" H 7169 4016 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7250 4250 50  0001 C CNN
-F 3 "~" H 7250 4250 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/Free-shipping-Gold-plated-copper-20PCS-40Pins-2-54mm-Single-Row-Straight-Male-Pin-Header-Strip/32473625812.html?spm=2114.search0104.3.94.44d42766ud9Ii9&ws_ab_test=searchweb0_0,searchweb201602_3_10065_10068_10843_319_10059_10884_317_10887_10696_100031_321_322_10084_453_10083_454_10103_10618_10304_10307_10820_537_536,searchweb201603_53,ppcSwitch_0&algo_expid=a16b1eea-db34-4b13-adde-2a8e13b968c7-13&algo_pvid=a16b1eea-db34-4b13-adde-2a8e13b968c7&transAbTest=ae803_3" H 7250 4250 50  0001 C CNN
 	1    7250 4250
 	1    0    0    1   
 $EndComp

@@ -21,7 +21,7 @@ P 4950 3300
 F 0 "D5" V 4904 3379 50  0000 L CNN
 F 1 "LM4040DBZ-10" V 4995 3379 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 4950 3100 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm4040-n.pdf" H 4950 3300 50  0001 C CIN
+F 3 "https://sg.element14.com/texas-instruments/lm4040cim3-10-0-nopb/voltage-ref-shunt-10v-sot-23-3/dp/1564658" H 4950 3300 50  0001 C CIN
 	1    4950 3300
 	0    1    1    0   
 $EndComp

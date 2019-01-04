@@ -591,7 +591,7 @@ AR Path="/5C25BEB7/5C66BB08" Ref="SW12"  Part="1"
 F 0 "SW12" H 8100 5025 50  0000 C CNN
 F 1 "SW_SPDT_MSM" H 8100 5116 50  0000 C CNN
 F 2 "Local:SPDT" H 8100 5350 50  0001 C CNN
-F 3 "" H 8100 5350 50  0001 C CNN
+F 3 "https://www.aliexpress.com/item/100PCS-2A-250VAC-ON-OFF-ON-Toggle-Switch-3-Pins-SPDT-3Position-5A-125VAC-Red-Base/32924342655.html?spm=a2g0s.9042311.0.0.29ff4c4d9xRyIe" H 8100 5350 50  0001 C CNN
 	1    8100 5350
 	-1   0    0    1   
 $EndComp
